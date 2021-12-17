@@ -30,7 +30,6 @@ public class ListaCircularDE {
 
         if (primerNodo == null) {
             primerNodo = nuevoNodo;
-            primerNodo.siguiente = nuevoNodo;
         } else {
             NodoDE ultimoNodo = primerNodo.anterior;
             ultimoNodo.siguiente = nuevoNodo;
